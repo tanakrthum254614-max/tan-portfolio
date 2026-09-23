@@ -34,6 +34,29 @@ const ALLOWED_IMAGE_TYPES = {
   'image/webp': { ext: 'webp', sharpFormat: 'webp' }
 };
 
+// The kuromos deployment (web-thander-portfolio) calls this API cross-origin
+// so both sites read and write the same gallery.
+const ALLOWED_ORIGINS = [
+  'https://tan-portfolio-pi-orcin.vercel.app',
+  'https://web-thander-portfolio.vercel.app'
+];
+
+/** Sets CORS headers; returns true if the request was a preflight and is done. */
+export function handleCors(req, res) {
+  const origin = req.headers.origin;
+  if (ALLOWED_ORIGINS.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Vary', 'Origin');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  }
+  if (req.method === 'OPTIONS') {
+    res.status(204).end();
+    return true;
+  }
+  return false;
+}
+
 export function fail(res, status, message) {
   res.status(status).json({ success: false, error: message });
 }

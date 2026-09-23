@@ -2943,7 +2943,10 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 
 <script>
 (function () {
-  const GALLERY_URL = '/api/gallery';
+  // Both deployments (Thander + kuromos) share one gallery store so an
+  // upload on either site shows up on both.
+  const GALLERY_API = 'https://tan-portfolio-pi-orcin.vercel.app';
+  const GALLERY_URL = GALLERY_API + '/api/gallery';
   // Fallback so the gallery still displays if fetch() can't load JSON
   // (e.g. the page is opened as a local file instead of via a web server).
   // This is a point-in-time snapshot — items added/edited/deleted through
@@ -3012,7 +3015,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
       fd.set('id', item.id);
       statusEl.textContent = 'กำลังบันทึก...'; statusEl.style.color = 'rgba(248,250,252,0.6)';
       saveBtn.disabled = true;
-      fetch('/api/manage', { method: 'POST', body: fd })
+      fetch(GALLERY_API + '/api/manage', { method: 'POST', body: fd })
         .then(function (r) { return r.json(); })
         .then(function (res) {
           if (!res.success) throw new Error(res.error || 'Save failed');
@@ -3037,7 +3040,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
     fd.set('category', category);
     fd.set('action', 'delete');
     fd.set('id', item.id);
-    fetch('/api/manage', { method: 'POST', body: fd })
+    fetch(GALLERY_API + '/api/manage', { method: 'POST', body: fd })
       .then(function (r) { return r.json(); })
       .then(function (res) {
         if (!res.success) throw new Error(res.error || 'Delete failed');
@@ -3155,7 +3158,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
     fd.set('category', category);
     if (statusEl) { statusEl.textContent = 'กำลังอัปโหลด...'; statusEl.style.color = 'rgba(248,250,252,0.6)'; }
     if (btn) btn.disabled = true;
-    fetch('/api/gallery', { method: 'POST', body: fd })
+    fetch(GALLERY_URL, { method: 'POST', body: fd })
       .then(function (r) { return r.json(); })
       .then(function (res) {
         if (!res.success) throw new Error(res.error || 'Upload failed');

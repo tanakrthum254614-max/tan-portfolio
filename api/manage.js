@@ -3,6 +3,7 @@ import {
   ALLOWED_CATEGORIES,
   MAX_FILES,
   fail,
+  handleCors,
   checkPasscode,
   cleanText,
   readGallery,
@@ -38,6 +39,8 @@ async function parseForm(req) {
 }
 
 export default async function handler(req, res) {
+  if (handleCors(req, res)) return;
+
   if (req.method !== 'POST') {
     return fail(res, 405, 'Method not allowed');
   }
