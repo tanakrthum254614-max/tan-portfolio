@@ -17,6 +17,12 @@
             "image": "images/cert-pdpa.jpg",
             "title": "PDPA & Data Cybersecurity",
             "subtitle": "PDPA Consultant and Training Co., Ltd. · August 24, 2026"
+        },
+        {
+            "id": "cert-google-apps-script",
+            "image": "images/cert-google-apps-script.jpg",
+            "title": "Google Apps Script (GAS) Fundamentals — From Zero to a Working Web App",
+            "subtitle": "พงศ์ศิริ ทองสอาดศรี · September 20, 2026"
         }
     ],
     "training": [

@@ -17,7 +17,8 @@ const SEED_GALLERY = {
   cert: [
     { id: 'cert-internal-audit', image: '/images/cert-internal-audit.jpg', title: 'Internal Audit — ISO 19011:2018 for ISO 9001:2015', subtitle: 'Worldwide Training · May 15, 2026' },
     { id: 'cert-iso9001', image: '/images/cert-iso9001.jpg', title: 'ISO 9001:2015 — Awareness and Requirements Training', subtitle: 'Worldwide Training · May 14, 2026' },
-    { id: 'cert-pdpa', image: '/images/cert-pdpa.jpg', title: 'PDPA & Data Cybersecurity', subtitle: 'PDPA Consultant and Training Co., Ltd. · August 24, 2026' }
+    { id: 'cert-pdpa', image: '/images/cert-pdpa.jpg', title: 'PDPA & Data Cybersecurity', subtitle: 'PDPA Consultant and Training Co., Ltd. · August 24, 2026' },
+    { id: 'cert-google-apps-script', image: '/images/cert-google-apps-script.jpg', title: 'Google Apps Script (GAS) Fundamentals — From Zero to a Working Web App', subtitle: 'พงศ์ศิริ ทองสอาดศรี · September 20, 2026' }
   ],
   training: [
     { id: 'training-csr-mangrove', images: ['/images/training-csr-mangrove-1.jpg', '/images/training-csr-mangrove-2.jpg'], title: 'กิจกรรมเพื่อสังคม CSR — ปลูกป่าชายเลนฟื้นฟูระบบนิเวศทรัพยากรธรรมชาติ', subtitle: 'Viserve Enterprise · August 22, 2026' },
