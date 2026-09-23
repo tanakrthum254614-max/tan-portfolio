@@ -49,6 +49,28 @@ export function cleanText(value, maxLen) {
   return v.length > maxLen ? v.slice(0, maxLen) : v;
 }
 
+/**
+ * Entries added to SEED_GALLERY in code show up even after gallery.json
+ * exists in Blob, so new items can ship with a deploy instead of the
+ * passcode-protected upload UI. Seed entries deleted through the UI are
+ * remembered in removedSeedIds so they don't come back.
+ */
+function mergeSeed(data) {
+  const removed = new Set(Array.isArray(data.removedSeedIds) ? data.removedSeedIds : []);
+  for (const cat of ALLOWED_CATEGORIES) {
+    const existing = new Set(data[cat].map((item) => item.id));
+    for (const item of SEED_GALLERY[cat]) {
+      if (!existing.has(item.id) && !removed.has(item.id)) {
+        data[cat].push(structuredClone(item));
+      }
+    }
+  }
+}
+
+export function isSeedId(category, id) {
+  return (SEED_GALLERY[category] || []).some((item) => item.id === id);
+}
+
 /** Find the current gallery.json blob (if any already exists) via its stable pathname. */
 async function findGalleryBlob() {
   const { blobs } = await list({ prefix: GALLERY_PATHNAME, limit: 1 });
@@ -78,6 +100,7 @@ export async function readGallery() {
   for (const cat of ALLOWED_CATEGORIES) {
     if (!Array.isArray(data[cat])) data[cat] = [];
   }
+  mergeSeed(data);
   return data;
 }
 

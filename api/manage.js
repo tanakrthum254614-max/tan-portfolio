@@ -8,7 +8,8 @@ import {
   readGallery,
   writeGallery,
   saveImage,
-  deleteImage
+  deleteImage,
+  isSeedId
 } from './_lib/store.js';
 
 // Vercel's Node.js runtime auto-parses request bodies by default, which
@@ -73,6 +74,9 @@ export default async function handler(req, res) {
     const urls = body.category === 'cert' ? [entry.image] : entry.images || [];
     await Promise.all(urls.filter(Boolean).map((u) => deleteImage(u)));
     list.splice(index, 1);
+    if (isSeedId(body.category, body.id)) {
+      data.removedSeedIds = [...(data.removedSeedIds || []), body.id];
+    }
     try {
       await writeGallery(data);
     } catch (err) {
