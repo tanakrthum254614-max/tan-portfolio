@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>เทียบข้อมูล Café Roulette ในพอร์ตโฟลิโอ</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b1120;color:#f8fafc;font:15px/1.6 system-ui,'Noto Sans Thai',sans-serif}.wrap{max-width:1120px;margin:auto;padding:24px 16px 50px}h1{font-size:clamp(23px,4vw,32px);line-height:1.25;margin:0 0 7px}p{margin:0 0 18px;color:#cbd5e1}.switch{display:none;gap:8px;margin:12px 0}.switch button{flex:1;min-height:44px;border:1px solid #334155;border-radius:10px;background:#17243a;color:#e2e8f0;font:inherit}.switch button[aria-pressed=true]{background:#0c4a6e;border-color:#38bdf8}.frames{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.side{min-width:0}.side-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0 0 8px;font-weight:700}.side-head a,.links a{color:#38bdf8}.frame{height:min(740px,75vh);border:7px solid #1e293b;border-radius:16px;overflow:hidden;background:#0f172a}.frame iframe{width:100%;height:100%;border:0}.diff{margin-top:22px;padding:16px;border:1px solid #334155;border-radius:15px;background:#111c31}.diff h2{font-size:19px;margin:0 0 10px}table{width:100%;border-collapse:collapse}th,td{padding:9px 8px;border-top:1px solid #334155;text-align:left;vertical-align:top}th{border-top:0;color:#94a3b8}.links{display:flex;flex-wrap:wrap;gap:15px;margin-top:16px}.links a{font-weight:700}@media(max-width:760px){.switch{display:flex}.frames{grid-template-columns:1fr}.side[hidden-mobile]{display:none}.frame{height:69vh;border-width:5px}td:first-child{font-weight:700}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>ข้อมูล Café Roulette ในพอร์ตโฟลิโอ: ก่อนและหลัง</h1>
+  <p>เปิดสไลด์ Coding Projects หน้า 3 ให้เทียบข้อมูลที่อยู่บนพอร์ตโฟลิโอเดิมกับข้อมูลของเว็บคาเฟ่ปัจจุบัน</p>
+  <div class="switch" role="group" aria-label="เลือกเวอร์ชัน"><button data-show="old" aria-pressed="false">🕰️ ก่อนปรับ</button><button data-show="new" aria-pressed="true">✨ หลังปรับ</button></div>
+  <div class="frames">
+    <section class="side" id="old"><div class="side-head"><span>🕰️ ก่อนปรับ</span><a href="/old-cafe.html" target="_blank" rel="noopener">เปิดเต็มจอ ↗</a></div><div class="frame"><iframe src="/old-cafe.html" title="พอร์ตโฟลิโอเดิม" loading="eager"></iframe></div></section>
+    <section class="side" id="new"><div class="side-head"><span>✨ หลังปรับ</span><a href="/" target="_blank" rel="noopener">เปิดเต็มจอ ↗</a></div><div class="frame"><iframe src="/" title="พอร์ตโฟลิโอใหม่" loading="eager"></iframe></div></section>
+  </div>
+  <section class="diff"><h2>เปลี่ยนข้อมูลตรงไหน</h2><table><thead><tr><th>ส่วน</th><th>เก่า</th><th>ใหม่</th></tr></thead><tbody>
+    <tr><td>พื้นที่</td><td>50 เขตกรุงเทพฯ</td><td>77 จังหวัด พร้อมเลือกอำเภอ</td></tr>
+    <tr><td>ตัวเลขเด่น</td><td>348 คาเฟ่</td><td>77 จังหวัด โดยไม่อ้างจำนวนร้านที่เปลี่ยนตามการตรวจรูป</td></tr>
+    <tr><td>รูปภาพ</td><td>ร้านอาจมีหรือไม่มีรูป</td><td>แสดงและสุ่มเฉพาะร้านที่ตรวจพบรูป</td></tr>
+    <tr><td>สัตว์เลี้ยง</td><td>ยังไม่กล่าวถึง</td><td>20 ชนิด คุย เล่น และโตถึง Lv.99 พร้อมฉากวันสำคัญไทย</td></tr>
+  </tbody></table><div class="links"><a href="https://sumkin-food-lake.vercel.app/" target="_blank" rel="noopener">เปิด Café Roulette ↗</a><a href="https://sumkin-food-lake.vercel.app/compare.html" target="_blank" rel="noopener">ดูหน้าเทียบการคัดรูปในเว็บคาเฟ่ ↗</a></div></section>
+</main>
+<script>
+(function(){
+  document.querySelectorAll('iframe').forEach(function(frame){frame.addEventListener('load',function(){try{var win=frame.contentWindow,modal=win.document.getElementById('projects-modal');if(modal&&win.projGoTo){modal.style.display='flex';win.projGoTo(2);}}catch(e){}});});
+  var buttons=document.querySelectorAll('[data-show]');function show(which){buttons.forEach(function(button){button.setAttribute('aria-pressed',String(button.getAttribute('data-show')===which));});document.getElementById('old').toggleAttribute('hidden-mobile',which!=='old');document.getElementById('new').toggleAttribute('hidden-mobile',which!=='new');}
+  buttons.forEach(function(button){button.addEventListener('click',function(){show(button.getAttribute('data-show'));});});show('new');
+})();
+</script>
+</body>
+</html>
