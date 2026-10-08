@@ -3374,7 +3374,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
               <path d="M30 128 L60 116 L84 121 L110 98 L136 104 L160 82 L186 90 L212 68 L238 74 L262 56 L290 62 L330 46" fill="none" stroke="#F0B429" stroke-width="2" stroke-linejoin="round"/>
               <path d="M30 128 L60 116 L84 121 L110 98 L136 104 L160 82 L186 90 L212 68 L238 74 L262 56 L290 62 L330 46 L330 140 L30 140 Z" fill="rgba(240,180,41,0.10)"/>
               <line x1="30" y1="100" x2="334" y2="100" stroke="#1FB47F" stroke-width="1" stroke-dasharray="4 3"/>
-              <text x="36" y="96" font-family="'Segoe UI',sans-serif" font-size="8" fill="#8fe0bf">🎯 จุดเข้า · TP1 / TP2 / TP3</text>
+              <text x="36" y="96" font-family="'Segoe UI',sans-serif" font-size="8" fill="#8fe0bf">▲ Buy / ▼ Sell · จุดเข้า · TP</text>
               <line x1="30" y1="132" x2="334" y2="132" stroke="#E0424F" stroke-width="1" stroke-dasharray="2 3"/>
               <text x="36" y="146" font-family="'Segoe UI',sans-serif" font-size="8" fill="#f2a8ae">🛑 ตัดขาดทุน (SL)</text>
               <circle cx="330" cy="46" r="4" fill="#F0B429"/>
@@ -3384,21 +3384,23 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
               <circle cx="470" cy="72" r="34" fill="none" stroke="#1FB47F" stroke-width="9" stroke-dasharray="64 214" stroke-dashoffset="-94" transform="rotate(-90 470 72)"/>
               <circle cx="470" cy="72" r="34" fill="none" stroke="#F0B429" stroke-width="9" stroke-dasharray="56 214" stroke-dashoffset="-158" transform="rotate(-90 470 72)"/>
               <text x="470" y="68" font-family="'IBM Plex Mono',monospace" font-size="15" font-weight="700" fill="#F8FAFC" text-anchor="middle">LIVE</text>
-              <text x="470" y="82" font-family="'Segoe UI',sans-serif" font-size="7" fill="rgba(248,250,252,0.45)" text-anchor="middle">ราคาทุก 3 วินาที</text>
-              <text x="470" y="122" font-family="'Segoe UI',sans-serif" font-size="8" fill="rgba(248,250,252,0.55)" text-anchor="middle">สัญญาณ · สถิติชนะ–แพ้ · แจ้ง LINE</text>
+              <text x="470" y="82" font-family="'Segoe UI',sans-serif" font-size="7" fill="rgba(248,250,252,0.45)" text-anchor="middle">7 กรอบเวลา</text>
+              <text x="470" y="122" font-family="'Segoe UI',sans-serif" font-size="8" fill="rgba(248,250,252,0.55)" text-anchor="middle">% พร้อมเข้า · ผลจริง · LINE/Push</text>
             </svg>
           </div>
 
           <div style="padding:1.75rem;">
             <span style="display:inline-block;font-size:0.68rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#38BDF8;border:1px solid rgba(56,189,248,0.3);border-radius:99px;padding:0.25rem 0.75rem;margin-bottom:1rem;">Personal Tool</span>
             <h3 class="bento-title" style="margin-bottom:0.65rem;">Gold Signal</h3>
-            <p style="font-size:0.9rem;line-height:1.75;color:rgba(248,250,252,0.72);margin:0 0 1.25rem;">เว็บแอปวิเคราะห์และให้สัญญาณเทรดทองคำ XAU/USD อิงข้อมูลจาก investing.com แบบเรียลไทม์ บอกจุดเข้า ตัดขาดทุน และเป้ากำไร 3 ระดับ มีเกจแนวโน้มสดและแผนภูมิวงกลมแสดงโอกาสแต่ละจุดจากสถิติย้อนหลัง 2 ปี บันทึกผลชนะ–แพ้ของทุกสัญญาณแบบไม่ตัดทิ้ง พร้อมผลทดสอบย้อนหลังตามจริง ระบบอัตโนมัติบน GitHub Actions ส่งสัญญาณและแจ้งเตือน TP/SL ทาง LINE หลบช่วงข่าวแรง คำนวณขนาดไม้จากทุน และมีเบรกฉุกเฉินเมื่อผลแย่ ล็อกอินด้วย Google และสลับโหมดสว่าง/มืดได้</p>
+            <p style="font-size:0.9rem;line-height:1.75;color:rgba(248,250,252,0.72);margin:0 0 1.25rem;">เว็บแอปให้สัญญาณเทรดทองคำ XAU/USD แบบเรียลไทม์ (ราคาสดจาก investing.com) กราฟแบบนักเทรดครบ 7 กรอบเวลา (5 นาที – 1 สัปดาห์) แต่ละกรอบใช้ระบบที่ทดสอบย้อนหลังแล้ว แสดงช่อง Buy | Sell พร้อม “ความพร้อมเข้า %” และคำตัดสิน ✅ ควรเข้า / ⏸ รอ / ⚠️ ไม่แนะนำ ลูกศร ▲▼ และกล่องจุดเข้า–TP–SL บนกราฟ เส้นกรอบราคาแบบ Nadaraya-Watson และโซนแนวรับ–ต้าน ระบบบน GitHub Actions เช็กทุก 5 นาที บันทึกผลจริงทุกสัญญาณเทียบกับผลทดสอบ มีเบรกพักอัตโนมัติเมื่อแพ้ติดกัน แจ้งเตือนทาง LINE และ Web Push สรุปผลรายสัปดาห์ เครื่องคำนวณขนาดไม้จากทุน รายงานผลขาดทุนตามจริงไม่ตัดทิ้ง ล็อกอินด้วย Google รองรับมือถือและติดตั้งเป็นแอปได้</p>
             <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:1.5rem;">
               <span style="font-size:0.7rem;font-weight:600;padding:0.25rem 0.7rem;border:1px solid rgba(56,189,248,0.3);color:#38BDF8;border-radius:99px;">Real-time Data</span>
               <span style="font-size:0.7rem;font-weight:600;padding:0.25rem 0.7rem;border:1px solid rgba(56,189,248,0.3);color:#38BDF8;border-radius:99px;">Backtesting</span>
               <span style="font-size:0.7rem;font-weight:600;padding:0.25rem 0.7rem;border:1px solid rgba(56,189,248,0.3);color:#38BDF8;border-radius:99px;">GitHub Actions</span>
               <span style="font-size:0.7rem;font-weight:600;padding:0.25rem 0.7rem;border:1px solid rgba(56,189,248,0.3);color:#38BDF8;border-radius:99px;">LINE Messaging API</span>
               <span style="font-size:0.7rem;font-weight:600;padding:0.25rem 0.7rem;border:1px solid rgba(56,189,248,0.3);color:#38BDF8;border-radius:99px;">Google Sign-in</span>
+              <span style="font-size:0.7rem;font-weight:600;padding:0.25rem 0.7rem;border:1px solid rgba(56,189,248,0.3);color:#38BDF8;border-radius:99px;">Web Push / PWA</span>
+              <span style="font-size:0.7rem;font-weight:600;padding:0.25rem 0.7rem;border:1px solid rgba(56,189,248,0.3);color:#38BDF8;border-radius:99px;">Lightweight Charts</span>
             </div>
             <a href="https://gold-signal-ten.vercel.app/?demo=1" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.3);color:#38BDF8;padding:0.55rem 1.1rem;border-radius:8px;font-size:0.82rem;font-weight:600;text-decoration:none;">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
