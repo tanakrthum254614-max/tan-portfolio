@@ -2303,7 +2303,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
                         </div>
                         <div class="hero-stat-divider"></div>
                         <div class="hero-stat-item" onclick="document.getElementById('projects-modal').style.display='flex'" style="cursor:pointer;" title="ดูโปรเจค">
-                            <span id="stat-projects" class="hero-stat-number" style="text-decoration:none;">4</span>
+                            <span id="stat-projects" class="hero-stat-number" style="text-decoration:none;">5</span>
                             <span class="hero-stat-label">Project<br>completed</span>
                         </div>
                         <div class="hero-stat-divider"></div>
@@ -3190,7 +3190,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
       </div>
       <!-- Slide counter -->
       <div style="display:flex;align-items:center;gap:1.25rem;">
-        <span id="proj-counter" style="font-size:0.75rem;font-family:monospace;color:rgba(248,250,252,0.45);letter-spacing:0.1em;">1 / 4</span>
+        <span id="proj-counter" style="font-size:0.75rem;font-family:monospace;color:rgba(248,250,252,0.45);letter-spacing:0.1em;">1 / 5</span>
         <button onclick="document.getElementById('projects-modal').style.display='none'" style="background:none;border:none;cursor:pointer;color:rgba(248,250,252,0.4);padding:0.25rem;display:flex;" onmouseover="this.style.color='#F8FAFC'" onmouseout="this.style.color='rgba(248,250,252,0.4)'">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
@@ -3414,6 +3414,27 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
           </div>
         </div>
 
+        <!-- Slide 5: Thander Usage -->
+        <div class="proj-slide" style="min-width:100%;overflow-y:auto;max-height:calc(90vh - 130px);">
+          <div style="width:100%;aspect-ratio:600/185;background:radial-gradient(ellipse at 30% 60%,#173b50,#0B1120 70%);display:flex;align-items:center;justify-content:center;gap:2rem;overflow:hidden;padding:0 1.5rem;">
+            <img src="images/projects/thander-mascot.png" width="180" height="185" loading="lazy" alt="Thander หุ่นยนต์สายฟ้าทักทาย" style="object-fit:contain;max-width:40%;height:100%;">
+            <div><span style="color:#67e8f9;font-size:0.55rem;letter-spacing:0.17em;">YOUR ELECTRIC COMPANION</span><strong style="display:block;font-size:clamp(1rem,4vw,1.6rem);letter-spacing:0.1em;color:#edf7ff;">THANDER</strong><span style="font-size:0.65rem;color:#9bb6cc;">Claude + Codex · Desktop usage</span></div>
+          </div>
+          <div style="padding:1.75rem;">
+            <span style="display:inline-block;font-size:0.68rem;font-weight:700;letter-spacing:0.14em;color:#67e8f9;border:1px solid #67e8f944;border-radius:99px;padding:0.25rem 0.75rem;margin-bottom:1rem;">Desktop Companion · Open Source</span>
+            <h3 class="bento-title" style="margin-bottom:0.65rem;">Thander Usage</h3>
+            <p style="font-size:0.9rem;line-height:1.85;color:rgba(248,250,252,0.72);margin:0 0 1.25rem;">มาสคอตหุ่นยนต์สายฟ้าบน Windows สำหรับดูโควตา Claude และ Codex ในแผงเดียว ออกแบบหมวกทรงคมและท่าทักทายด้วยข้อต่อไหล่ ศอก และข้อมือ พร้อมกระพริบตา โดยศีรษะและลำตัวอยู่นิ่ง ลากย้ายได้ คลิกเปิดโควตา รองรับภาษาไทยและปิดการเคลื่อนไหวได้ อ่านสถานะผ่าน CLI ที่ล็อกอินในเครื่อง มีชุดดาวน์โหลด Portable และหน้าเว็บเดโมบน Vercel พัฒนาต่อยอดจาก ShanGyi Usage ภายใต้ MIT License</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:1.5rem;">
+              <span style="font-size:0.7rem;padding:0.25rem 0.7rem;border:1px solid #38bdf84d;color:#38BDF8;border-radius:99px;">Electron</span><span style="font-size:0.7rem;padding:0.25rem 0.7rem;border:1px solid #38bdf84d;color:#38BDF8;border-radius:99px;">Node.js</span><span style="font-size:0.7rem;padding:0.25rem 0.7rem;border:1px solid #38bdf84d;color:#38BDF8;border-radius:99px;">SVG Animation</span><span style="font-size:0.7rem;padding:0.25rem 0.7rem;border:1px solid #38bdf84d;color:#38BDF8;border-radius:99px;">Claude / Codex CLI</span><span style="font-size:0.7rem;padding:0.25rem 0.7rem;border:1px solid #38bdf84d;color:#38BDF8;border-radius:99px;">Vercel</span>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;align-items:center;gap:1rem;">
+              <a href="https://thander-usage.vercel.app/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;background:#38bdf81a;border:1px solid #38bdf84d;color:#38BDF8;padding:0.55rem 1.1rem;border-radius:8px;font-size:0.82rem;font-weight:600;">ดูเว็บและลองเดโม ↗</a>
+              <a href="https://github.com/tanakrthum254614-max/thander-usage" target="_blank" rel="noopener" style="color:#38BDF8;font-size:0.82rem;text-decoration:underline;text-underline-offset:3px;">GitHub ↗</a>
+              <a href="https://github.com/tanakrthum254614-max/thander-usage/releases/latest" target="_blank" rel="noopener" style="color:#38BDF8;font-size:0.82rem;text-decoration:underline;text-underline-offset:3px;">ดาวน์โหลด Windows ↓</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div><!-- /slider area -->
 
@@ -3425,6 +3446,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
         <button onclick="projGoTo(1)" style="width:8px;height:8px;border-radius:99px;border:none;cursor:pointer;transition:all 0.3s;background:rgba(255,255,255,0.2);"></button>
         <button onclick="projGoTo(2)" style="width:8px;height:8px;border-radius:99px;border:none;cursor:pointer;transition:all 0.3s;background:rgba(255,255,255,0.2);"></button>
         <button onclick="projGoTo(3)" style="width:8px;height:8px;border-radius:99px;border:none;cursor:pointer;transition:all 0.3s;background:rgba(255,255,255,0.2);"></button>
+        <button aria-label="Thander Usage" onclick="projGoTo(4)" style="width:8px;height:8px;border-radius:99px;border:none;cursor:pointer;transition:all 0.3s;background:rgba(255,255,255,0.2);"></button>
       </div>
       <!-- Prev / Next -->
       <div style="display:flex;gap:0.6rem;">
@@ -3444,7 +3466,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 
 <script>
 (function(){
-  var cur = 0, total = 4;
+  var cur = 0, total = document.querySelectorAll('#proj-track .proj-slide').length;
   function projGoTo(n){
     cur = n;
     document.getElementById('proj-track').style.transform = 'translateX(-' + (cur*100) + '%)';
@@ -4033,7 +4055,7 @@ document.querySelectorAll('.timeline-item, .experience-item, .activity-item, .ho
 
     var STATS = [
         ['stat-months',   months],
-        ['stat-projects', 4],
+        ['stat-projects', 5],
         ['stat-tech',     skills]
     ];
 

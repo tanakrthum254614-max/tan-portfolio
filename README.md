@@ -43,6 +43,7 @@
 
 | Project | Description |
 |---|---|
+| [Thander Usage](https://thander-usage.vercel.app/) | Windows desktop robot companion for Claude/Codex usage, articulated greeting and interactive web demo. [Source](https://github.com/tanakrthum254614-max/thander-usage) |
 | [Gold Signal](https://github.com/tanakrthum254614-max/gold-signal) | แพลตฟอร์มสัญญาณการซื้อขายทองคำแบบเรียลไทม์ พร้อมผลทดสอบย้อนหลังและการเปิดเผยผลการซื้อขายจริง |
 | [IT Asset Tracker](https://github.com/tanakrthum254614-max/it-asset-tracker) | ระบบทะเบียนครุภัณฑ์ไอทีพร้อมป้าย QR และการติดตามการรับประกัน |
 | [IT Expiry Alert](https://github.com/tanakrthum254614-max/it-expiry-alert) | ระบบแจ้งเตือนก่อนใบรับรอง SSL โดเมน ลิขสิทธิ์ และสัญญาหมดอายุ |
