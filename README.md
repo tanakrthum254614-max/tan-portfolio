@@ -43,6 +43,7 @@
 
 | Project | Description |
 |---|---|
+| [THANDER Company](https://thander-company-ai-campus.vercel.app/) | อาคารองค์กร AI 4 ชั้น 11 ฝ่าย 64 บทบาท พร้อมพื้นที่ CEO สั่งงาน OpenAI API รับไฟล์และอนุมัติผลงาน (Private source) |
 | [Thander Usage](https://thander-usage.vercel.app/) | Windows desktop robot companion for Claude/Codex usage, articulated greeting and interactive web demo. [Source](https://github.com/tanakrthum254614-max/thander-usage) |
 | [Gold Signal](https://github.com/tanakrthum254614-max/gold-signal) | แพลตฟอร์มสัญญาณการซื้อขายทองคำแบบเรียลไทม์ พร้อมผลทดสอบย้อนหลังและการเปิดเผยผลการซื้อขายจริง |
 | [IT Asset Tracker](https://github.com/tanakrthum254614-max/it-asset-tracker) | ระบบทะเบียนครุภัณฑ์ไอทีพร้อมป้าย QR และการติดตามการรับประกัน |
@@ -65,7 +66,7 @@
 npx serve .      # หรือเปิดไฟล์ index.html ในเบราว์เซอร์โดยตรง
 ```
 
-การ push ไปยัง branch `main` จะ deploy ไปยัง Vercel โดยอัตโนมัติ
+การ push ไปยัง branch `master` จะ deploy ไปยัง Vercel โดยอัตโนมัติ
 
 ---
 
