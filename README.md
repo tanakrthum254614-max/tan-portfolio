@@ -88,3 +88,6 @@ THANDER Creative & Media update: added Graphic Designer B5-01 and Video Editor B
 
 
 THANDER CEO handoff update: assigned representatives now walk from their department desk through corridors/lifts to receive a brief in the CEO office, return to work, and revisit when the task becomes ready for review. The private workspace links the presentation to actual responses/files and keeps approval separate from animation. A labeled demo makes no AI or task requests. Added the demo screenshot; 44 automated tests and Edge fixture checks cover receipt, presentation, approval/return, failure, logout and mobile resizing. No private company work is published. `index.html` and `Portfolio.html` remain identical.
+
+
+THANDER navigation clarity: the public 3D office tour and the authenticated task workspace now have separate, descriptive labels. Portfolio links use “ชมห้อง CEO 3D” and “สั่งงานและรับผลงาน” to match.
