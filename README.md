@@ -71,3 +71,7 @@ npx serve .      # หรือเปิดไฟล์ index.html ในเบ�
 ---
 
 <div align="center"><sub>© 2569 Tan Akrthum · Bangkok, Thailand</sub></div>
+
+### THANDER hosting update · 20 October 2026
+
+The THANDER campus project was transferred to Vercel team `thander2` using the official claim flow. The original website URL remains unchanged; CEO sign-in, five existing private jobs and both generated files were verified after transfer without additional AI generation. The private Blob store remains in `thander1` and is accessible through the existing server credential; its ownership has not yet moved. This update does not publish private deliverables or credentials. `index.html` and `Portfolio.html` remain identical.
