@@ -43,7 +43,7 @@
 
 | Project | Description |
 |---|---|
-| [THANDER Company](https://thander-company-ai-campus.vercel.app/) | สำนักงานใหญ่ 3D โทนน้ำเงิน 4 ชั้น 11 ฝ่าย 64 บทบาท พร้อม [Workflow และหน้าที่ทุกฝ่าย](https://thander-company-ai-campus.vercel.app/workflow.html#departmentDirectory), ตัวอักษรใหญ่ คอนทราสต์ชัด การ์ดแยกสีแต่ละฝ่าย ไดอะแกรม SVG และพื้นที่ CEO ส่วนตัว (Private source) |
+| [THANDER Company](https://thander-company-ai-campus.vercel.app/) | สำนักงานใหญ่ 3D โทนน้ำเงิน 4 ชั้น 11 ฝ่าย 64 บทบาท พร้อม [Workflow และหน้าที่ทุกฝ่าย](https://thander-company-ai-campus.vercel.app/workflow.html#departmentDirectory), ตัวอักษรใหญ่ คอนทราสต์ชัด การ์ดแยกสีแต่ละฝ่าย ไดอะแกรม SVG และพื้นที่ CEO ส่วนตัว พร้อม [ตัวอย่างสั่งแผนคอนเทนต์ 7 วัน](https://thander-company-ai-campus.vercel.app/workflow.html#practiceLab) สร้างไฟล์ CSV/Markdown ในเบราว์เซอร์และตรวจรับตัวอย่าง (Private source) |
 | [Thander Usage](https://thander-usage.vercel.app/) | Windows desktop robot companion for Claude/Codex usage, articulated greeting and interactive web demo. [Source](https://github.com/tanakrthum254614-max/thander-usage) |
 | [Gold Signal](https://github.com/tanakrthum254614-max/gold-signal) | แพลตฟอร์มสัญญาณการซื้อขายทองคำแบบเรียลไทม์ พร้อมผลทดสอบย้อนหลังและการเปิดเผยผลการซื้อขายจริง |
 | [IT Asset Tracker](https://github.com/tanakrthum254614-max/it-asset-tracker) | ระบบทะเบียนครุภัณฑ์ไอทีพร้อมป้าย QR และการติดตามการรับประกัน |
