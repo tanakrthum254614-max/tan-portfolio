@@ -81,3 +81,5 @@ THANDER homepage motto updated to “คิดให้ไกล สร้าง
 THANDER workspace update: added status summaries, combined search/status filters and a wrapping inbox. Interior details start collapsed across all four floors; overview cameras fit the plan around controls. Added a public full-plan screenshot and a clearly labeled CEO fixture preview. Sixteen day-mode floor/viewport checks, four night-mode floors, five CEO widths and mocked lifecycle interactions passed. No real task mutations or AI generation were used for these UI checks.
 
 THANDER update: job deletion with confirmation and a private recoverable trash, plus a dedicated 3D CEO THANDER office on floor 1 ([enter office](https://thander-company-ai-campus.vercel.app/#ceo)). Backend tests now total 36. Browser checks used fixtures only for destructive actions; no real company jobs were deleted and no AI generation was triggered. Updated home/CEO previews and added the office screenshot; CEO task previews use explicitly labeled sample data.
+
+THANDER office update: the CEO is now the only person in the floor 1 executive office. Removed the coordinator character and refreshed the campus and office screenshots.
