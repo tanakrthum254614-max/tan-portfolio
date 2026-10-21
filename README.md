@@ -118,3 +118,6 @@ THANDER update: restored the original two-line company motto with smaller raised
 
 
 THANDER exterior realism update: replaced 51 procedural crowns with authored CC0 Tree Small 02 meshes from Poly Haven and three camera-distance LODs. Added photographic wall, paving and grass PBR materials, a daylight HDRI and static landscape reflections for physical glazing. Updated the homepage and added tree/facade previews. The interactive four-floor organization, employees, doors and private workflows remain available. Build/check, 72 tests and desktop/mobile/night/interior browser checks passed without AI requests. Both portfolio HTML pages are identical.
+
+
+THANDER status recovery update (21 October 2026): CEO workspace opens the latest task and displays a safe, timestamped warning when the provider cannot return its status. Existing job details stay readable, read-only retries preserve the interaction ID, and successful recovery clears the warning without new generation. Build/check and 83 tests passed; desktop/mobile fixture checks passed. No private task content or credentials are published.
