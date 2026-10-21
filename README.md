@@ -94,3 +94,6 @@ THANDER navigation clarity: the public 3D office tour and the authenticated task
 
 
 THANDER Thai date update: the CEO deadline field and task details display day/month/Buddhist year (21/10/2569), with a native calendar and clear action. Submitted dates retain Gregorian ISO values. Added a date-only preview; US/Thai locale, time zone, revision, optional-date and mobile fixture checks passed without AI calls or private work changes.
+
+
+THANDER reference upload update: up to three text/data files totaling 10 MB, with direct private uploads and progress feedback. Jobs keep references rather than large contents, and the server validates file size/UTF-8 before provider use. Added a file-field preview. Forty-nine tests and 10 MB SDK browser fixtures passed without AI calls or real job changes.
