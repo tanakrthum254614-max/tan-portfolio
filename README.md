@@ -112,3 +112,6 @@ THANDER CEO is explicitly male with a fixed avatar across the public office and 
 
 
 THANDER room doors and motto (21 October 2026): enclosed offices/shared rooms now have 68 hinged doors. Guests stop, knock, ask and wait for the host before entry; the CEO grants entry automatically. Doors close after passage. The homepage removes the selected paragraph and uses raised motto lettering on layered blue plates. Refreshed the homepage image and added door request/open previews. Build/check, 70 tests, seven responsive layouts and cross-floor receipt/presentation in normal/reduced-motion modes passed without AI calls or private work changes. Both portfolio HTML pages are identical.
+
+
+THANDER update: restored the original two-line company motto with smaller raised lettering and no frame. Added the user's nine “หา · บอก · ปล่อย” working practices to all 66 employee profiles, 22 room guides, Workflow, downloadable guidance and every department/role's AI instructions. Updated the homepage preview and added principles/profile previews. Build/check, 72 tests, seven homepage layouts and four Workflow widths passed without AI calls or private work changes. index.html and Portfolio.html remain identical.
