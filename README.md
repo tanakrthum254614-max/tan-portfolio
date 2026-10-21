@@ -106,3 +106,6 @@ THANDER visual update (21 October 2026): shared sculpted characters across all 6
 
 
 THANDER employees now use authored, textured human meshes and skeletons from Microsoft Rocketbox (MIT), preserving seated/walking identities across all 66 roles and CEO visits. The accepted campus environment is retained. [Updated human preview](images/projects/thander-staff-human.png).
+
+
+THANDER CEO is explicitly male with a fixed avatar across the public office and workspace visits. [CEO close-up](images/projects/thander-ceo-male.png).
