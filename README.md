@@ -115,3 +115,6 @@ THANDER room doors and motto (21 October 2026): enclosed offices/shared rooms no
 
 
 THANDER update: restored the original two-line company motto with smaller raised lettering and no frame. Added the user's nine “หา · บอก · ปล่อย” working practices to all 66 employee profiles, 22 room guides, Workflow, downloadable guidance and every department/role's AI instructions. Updated the homepage preview and added principles/profile previews. Build/check, 72 tests, seven homepage layouts and four Workflow widths passed without AI calls or private work changes. index.html and Portfolio.html remain identical.
+
+
+THANDER exterior realism update: replaced 51 procedural crowns with authored CC0 Tree Small 02 meshes from Poly Haven and three camera-distance LODs. Added photographic wall, paving and grass PBR materials, a daylight HDRI and static landscape reflections for physical glazing. Updated the homepage and added tree/facade previews. The interactive four-floor organization, employees, doors and private workflows remain available. Build/check, 72 tests and desktop/mobile/night/interior browser checks passed without AI requests. Both portfolio HTML pages are identical.
