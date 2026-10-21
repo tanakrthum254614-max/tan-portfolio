@@ -121,3 +121,5 @@ THANDER exterior realism update: replaced 51 procedural crowns with authored CC0
 
 
 THANDER status recovery update (21 October 2026): CEO workspace opens the latest task and displays a safe, timestamped warning when the provider cannot return its status. Existing job details stay readable, read-only retries preserve the interaction ID, and successful recovery clears the warning without new generation. Build/check and 83 tests passed; desktop/mobile fixture checks passed. No private task content or credentials are published.
+
+THANDER maintenance (21 October 2026): verified owner-requested removal of an unavailable task from the active inbox into recoverable private trash. Local tracking can be stopped administratively while external cancellation remains unconfirmed. No task identifiers, contents, attachments or credentials are published; no new AI generation was submitted.
