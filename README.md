@@ -109,3 +109,6 @@ THANDER employees now use authored, textured human meshes and skeletons from Mic
 
 
 THANDER CEO is explicitly male with a fixed avatar across the public office and workspace visits. [CEO close-up](images/projects/thander-ceo-male.png).
+
+
+THANDER room doors and motto (21 October 2026): enclosed offices/shared rooms now have 68 hinged doors. Guests stop, knock, ask and wait for the host before entry; the CEO grants entry automatically. Doors close after passage. The homepage removes the selected paragraph and uses raised motto lettering on layered blue plates. Refreshed the homepage image and added door request/open previews. Build/check, 70 tests, seven responsive layouts and cross-floor receipt/presentation in normal/reduced-motion modes passed without AI calls or private work changes. Both portfolio HTML pages are identical.
