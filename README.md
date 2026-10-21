@@ -91,3 +91,6 @@ THANDER CEO handoff update: assigned representatives now walk from their departm
 
 
 THANDER navigation clarity: the public 3D office tour and the authenticated task workspace now have separate, descriptive labels. Portfolio links use “ชมห้อง CEO 3D” and “สั่งงานและรับผลงาน” to match.
+
+
+THANDER Thai date update: the CEO deadline field and task details display day/month/Buddhist year (21/10/2569), with a native calendar and clear action. Submitted dates retain Gregorian ISO values. Added a date-only preview; US/Thai locale, time zone, revision, optional-date and mobile fixture checks passed without AI calls or private work changes.
