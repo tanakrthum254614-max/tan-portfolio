@@ -97,3 +97,6 @@ THANDER Thai date update: the CEO deadline field and task details display day/mo
 
 
 THANDER reference upload update: up to three text/data files totaling 10 MB, with direct private uploads and progress feedback. Jobs keep references rather than large contents, and the server validates file size/UTF-8 before provider use. Added a file-field preview. Forty-nine tests and 10 MB SDK browser fixtures passed without AI calls or real job changes.
+
+
+Production verification on 21 October 2026 uploaded exactly 10,485,760 fixture bytes through the browser SDK to Private Blob, read the file back with a matching SHA-256 hash, verified anonymous/cross-origin rejection and denied public reads, then deleted the test blob. No actual company jobs or AI calls were made.
