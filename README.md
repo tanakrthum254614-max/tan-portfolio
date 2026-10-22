@@ -143,3 +143,5 @@ THANDER update · 22 October 2026 (6): the opening now plays on every load (refr
 THANDER update · 22 October 2026 (7): opening stutter removed: all effects are pooled and shader-compiled behind the curtain before the clock starts, and the lightning flash drives existing lights instead of adding one (which recompiled every material). Measured on an Intel Iris Xe at 1440×900: worst frame 1,267 ms → 100 ms, zero frames over 100 ms, same frame rate as the idle scene.
 
 THANDER update · 22 October 2026 (8): removed the large THANDER COMPANY title from the opening at the user's request; lightning, flash and fireworks unchanged.
+
+THANDER update · 22 October 2026 (9): fireworks removed from the opening at the user's request; a few warm-up frames now render behind the curtain before the clock starts, so the first frame no longer stalls.
