@@ -151,3 +151,5 @@ THANDER update · 22 October 2026 (10): the homepage motto now sits on a readabl
 THANDER update · 22 October 2026 (11): the hero card was replaced by an edge-less soft glow behind the motto plus a thin letter halo (no white box), keeping it readable by day and night ([hero](images/projects/thander-hero-card.png)).
 
 THANDER update · 22 October 2026 (12): hero glow and letter halo made fainter at the user's request ([hero](images/projects/thander-hero-card.png)).
+
+THANDER update · 22 October 2026 (13): automatic quality — the page measures its own frame rate after the opening and steps down (1024 shadow map refreshed 10×/s, then fewer leaf shells); trees now cast shadows through coarse LOD-2 proxies on their own layer (shadow-pass triangles 1.5M → 0.33M), taking an Intel Iris Xe laptop from 30 to 60 fps. Night opening: city windows light up as the blocks grow and lightning flashes the dark sky; optional synthesized thunder (Web Audio, no audio files) behind a sound button ([night opening](images/projects/thander-intro-night.png)).
