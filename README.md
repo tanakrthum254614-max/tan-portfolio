@@ -147,3 +147,5 @@ THANDER update · 22 October 2026 (8): removed the large THANDER COMPANY title f
 THANDER update · 22 October 2026 (9): fireworks removed from the opening at the user's request; a few warm-up frames now render behind the curtain before the clock starts, so the first frame no longer stalls.
 
 THANDER update · 22 October 2026 (10): the homepage motto now sits on a readable card (frosted white by day, deep navy at night) with darker text and no stacked shadows, so the 3D city behind no longer competes with it ([hero card](images/projects/thander-hero-card.png)).
+
+THANDER update · 22 October 2026 (11): the hero card was replaced by an edge-less soft glow behind the motto plus a thin letter halo (no white box), keeping it readable by day and night ([hero](images/projects/thander-hero-card.png)).
