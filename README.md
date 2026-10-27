@@ -167,3 +167,5 @@ THANDER update · 27 October 2026 (2): the four floors now stand side by side in
 THANDER update · 27 October 2026 (3): dark navy background behind the interior so the office floors stand out.
 
 THANDER update · 27 October 2026 (4): team projects — the role that receives a CEO task plans which 1–4 teams it needs, each team does its part and hands its findings to the next, and the owner delivers one combined result; the CEO page shows a live coordination room with the conversation between teams.
+
+THANDER update · 27 October 2026 (5): first live team project — research → content → graphics → legal produced a 7-day social launch plan (.xlsx + .docx) with the legal team softening over-claims; stopped projects can resume from the stage where they stopped.
